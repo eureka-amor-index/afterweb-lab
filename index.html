@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Afterweb Lab // Recovery Terminal</title>
+
+<meta name="description" content="Afterweb Lab — a collection of recovered digital artifacts, forgotten machines and experimental creations from the Afterweb universe.">
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #050505;
+    color: #00ffff;
+    font-family: 'Share Tech Mono', monospace;
+    overflow-x: hidden;
+}
+
+/* CRT scanlines */
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+        repeating-linear-gradient(
+            0deg,
+            rgba(255,255,255,0.03),
+            rgba(255,255,255,0.03) 1px,
+            transparent 1px,
+            transparent 4px
+        );
+    pointer-events: none;
+}
+
+/* main terminal */
+
+.lab {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #00ffff;
+    background: rgba(0,0,0,0.85);
+    box-shadow:
+        0 0 20px #00ffff55,
+        inset 0 0 30px #00ffff22;
+}
+
+/* glitch title */
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow:
+        2px 0 #ff00ff,
+        -2px 0 #00ffff;
+}
+
+.subtitle {
+    text-align:center;
+    color:#aaa;
+    margin-bottom:40px;
+}
+
+.status {
+    border:1px dashed #00ffff;
+    padding:20px;
+    margin-bottom:30px;
+    background:#001111;
+}
+
+.status span {
+    color:#00ff88;
+}
+
+
+/* artifacts */
+
+.artifact {
+    border:1px solid #333;
+    padding:20px;
+    margin:20px 0;
+    transition:0.3s;
+}
+
+.artifact:hover {
+    border-color:#ff00ff;
+    box-shadow:0 0 15px #ff00ff55;
+}
+
+.artifact h2 {
+    color:#ff00ff;
+}
+
+a {
+    color:#00ffff;
+    text-decoration:none;
+}
+
+a:hover {
+    color:white;
+}
+
+.warning {
+    margin-top:40px;
+    color:#ff5555;
+    text-align:center;
+}
+
+.footer {
+    margin-top:50px;
+    text-align:center;
+    color:#555;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="lab">
+
+<h1>AFTERWEB LAB</h1>
+
+<div class="subtitle">
+RECOVERY TERMINAL // DIGITAL ARTIFACT ARCHIVE
+</div>
+
+
+<div class="status">
+
+SYSTEM STATUS:
+
+<br><br>
+
+LAB STATUS:
+<span>ONLINE</span>
+
+<br>
+
+ARTIFACTS RECOVERED:
+<span>002</span>
+
+<br>
+
+SIGNAL:
+<span>ACTIVE</span>
+
+<br>
+
+LOCATION:
+<span>UNKNOWN</span>
+
+</div>
+
+
+
+<div class="artifact">
+
+<h2>🌀 Artifact #001</h2>
+
+<h3>Afterweb Portal Generator</h3>
+
+<p>
+A machine that generates mysterious locations,
+forgotten portals and unstable digital coordinates.
+</p>
+
+<p>
+STATUS:
+<span style="color:#00ff88;">ACTIVE</span>
+</p>
+
+<a href="#">
+[ ACCESS ARTIFACT ]
+</a>
+
+</div>
+
+
+
+<div class="artifact">
+
+<h2>📻 Artifact #002</h2>
+
+<h3>Echo Chamber</h3>
+
+<p>
+A recovered digital object containing traces
+of forgotten signals from the old internet.
+</p>
+
+<p>
+STATUS:
+<span style="color:#ffaa00;">RECOVERING</span>
+</p>
+
+<a href="#">
+[ ACCESS ARTIFACT ]
+</a>
+
+</div>
+
+
+
+<div class="warning">
+
+⚠ SOME EXPERIMENTS MAY STILL BE RUNNING ⚠
+
+<br><br>
+
+NOT ALL SIGNALS ARE ECHOES.
+
+</div>
+
+
+
+<div class="footer">
+
+AFTERWEB LAB © 2026<br>
+Created by Eureka Amor
+
+</div>
+
+
+</div>
+
+</body>
+</html>
