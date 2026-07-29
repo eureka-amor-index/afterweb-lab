@@ -85,7 +85,7 @@ afterweb-lab/
 
 ## 👁️ Creator
 
-Created by **Eureka Amor**
+Created by **Eureka Amor** and **ATLAS.EXE**
 
 Built with curiosity, imagination, code, and a love for strange corners of the internet.
 
